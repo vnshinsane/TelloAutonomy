@@ -1,0 +1,4 @@
+ultralytics
+cvzone==1.5.6
+opencv-python>=4.8,<5
+djitellopy

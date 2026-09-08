@@ -1,0 +1,6 @@
+djitellopy
+opencv-python
+ultralytics
+cvzone
+numpy
+lap
