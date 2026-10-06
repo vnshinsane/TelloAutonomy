@@ -1,34 +1,12 @@
-# Tello Autonomous Tracking
+# TELLO AUTONOMOUS FLYING PROJECT
 
-Autonomous DJI Tello drone development using Python, OpenCV, YOLO and object tracking.
+##1. Tello Basics
+Watched this youtube video https://youtu.be/LmEcyQnfpDA?si=UqPGJC8ZXa7lyIg8 to learn the basic commands, and do some very basic projects, recotrd images generate a map plot, figure out safegaurds, connect to keyboard and slowly follow a human face using haarcascade and object boxes.
 
-## Project Structure
+##2. Yolo Basics
+Watched another youtube video and connected it to tello drone i believe to detect objects through tello camera.
 
-### 01 - Tello Basics
-Basic DJI Tello control experiments including movement, keyboard control, flight patterns, mapping and image capture.
+##3 Tello Search Project
+Called search project but more of a identify and follow project for now, so far managed to program it to boot up, scan its surroundings breifly, lock onto the first person it sees and follow them. 
 
-### 02 - YOLO Basics
-Standalone YOLO experiments for real-time object and person detection.
-
-### 03 - Tello Search
-Integration of DJI Tello camera input with YOLO and BoT-SORT tracking.
-
-Current capabilities:
-- Real-time Tello camera feed
-- YOLO person detection
-- BoT-SORT tracking IDs
-- Persistent target selection
-- Horizontal tracking
-- Vertical tracking
-- Forward/backward distance control
-- Target-loss scanning
-
-## Technologies
-
-- Python
-- OpenCV
-- Ultralytics YOLO
-- BoT-SORT
-- djitellopy
-
-readme done by chatgpt for now
+GOALS: want to get it to move around and scan its surroundings for a bit, lock onto a specific person (which ideally ill be able to predetermine) and follow them around for a bit, then take a photo and return to either its original position or a specified endpoint.
